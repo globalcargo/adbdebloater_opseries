@@ -2,7 +2,7 @@
 # OOS/H2OS Debloater
 This is a Debloater for Oxygen OS. Though it doesn't come with many bloats there are still bloats that could be removed to increase performance and battery life.
 
-This is a fork from the magicalmammal's excellent work for the OP7 series. I am using this fork to curate my personal setup for the OP Nord (EU rom). I have tried to document the various apps and commented out (using a leading "#" suitable for bash for Linux) those I am not removing. My setup may not be right for you or even break your device, for which I take no responsibility. So please keep that in mind when using this work. 
+This is a fork from the magicalmammal's excellent work that started with the OP7 series. I am using this fork to curate my personal setup for the OP Nord (EU rom). I have tried to document the various apps and commented out (using a leading "#" suitable for bash for Linux) those I am not removing. My setup may not be right for you or even break your device, for which I take no responsibility. So please keep that in mind when using this work. 
 
 You can find the original releases without my customization [here](https://github.com/DevilDipan/adbdebloater_opseries/releases)
 
