@@ -22,7 +22,7 @@ You can find the original releases without my customization [here](https://githu
 
 ## Instructions
 1. Connect the phone using ADB.
-2. Open Command Prompt/PowerShell/Shell/Terminal
+2. Open Command Shell/Terminal
 3. Run ADB -
 ```shell
 ADB devices
@@ -55,23 +55,15 @@ ADB shell
 ## Testing
 Me (globalcargo) OP Nord EU release
 
-1. [Me](https://forum.xda-developers.com/member.php?u=9670192) on OP7 on android pie/10 beta & EU.
-2. Nicole on OP7 Pro on android 10 stable.
-3. [haris_94](https://forum.xda-developers.com/member.php?u=9931329) on OP7 on android stable.
-4. [Croize](https://forum.xda-developers.com/member.php?u=5758653) on OP7T on android stable.
-I am using this Debloater for a year now and it didn't give me any issues on stable variant. <br>
-
-Also if you want to be updated please post it or write it to me.
 
 ## For modifying and posting code
 Fork this repo before you modify it
 
 ## Thanks for Suggestions and sharing your great work<br>
 
-[themagicalmammal](https://forum.xda-developers.com/member.php?u=9670192) on OP7 on android pie/10 beta & EU.
-Nicole on OP7 Pro on android 10 stable.
-[haris_94](https://forum.xda-developers.com/member.php?u=9931329) on OP7 on android stable.
-[Croize](https://forum.xda-developers.com/member.php?u=5758653) on OP7T on android stable.
+[themagicalmammal](https://forum.xda-developers.com/member.php?u=9670192)<br>
+[haris_94](https://forum.xda-developers.com/member.php?u=9931329)<br>
+[Croize](https://forum.xda-developers.com/member.php?u=5758653)<br>
 [haris_94](https://forum.xda-developers.com/member.php?u=9931329)<br>
 [Kinto](https://forum.xda-developers.com/member.php?u=1755710)<br>
 [dude_abided](https://forum.xda-developers.com/member.php?u=10663973)<br>
