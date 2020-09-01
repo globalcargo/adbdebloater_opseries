@@ -9,7 +9,7 @@ You can find the original releases without my customization [here](https://githu
 ###### Though the performance improvement is not visible the same to me battery life increased by 30+%.
 
 ## XDA
-###### The xda page is [here](https://forum.xda-developers.com/oneplus-7/how-to/debloat-oxygen-os-debloater-t4009133)
+###### The xda page for the original project is [here](https://forum.xda-developers.com/oneplus-7/how-to/debloat-oxygen-os-debloater-t4009133)
 
 ## License
 ### This is under MIT License.
