@@ -59,7 +59,7 @@ Me (globalcargo) OP Nord EU release
 ## For modifying and posting code
 Fork this repo before you modify it
 
-## Thanks for Suggestions and sharing your great work<br>
+## Thanks for sharing your great work<br>
 
 [themagicalmammal](https://forum.xda-developers.com/member.php?u=9670192)<br>
 [haris_94](https://forum.xda-developers.com/member.php?u=9931329)<br>
