@@ -45,6 +45,8 @@ ADB shell
 3. Overlay Script (For paranoid people)
 * With [Uninstall Method](https://github.com/DevilDipan/adbdebloater_opseries/blob/master/overlay.txt) **(Risky)**
 * With [Disable Method](https://github.com/DevilDipan/adbdebloater_opseries/blob/master/overlay_enable.txt) **(Recommended)**
+4. Facebook cleanup (removes facebook services introduced on OP series 8 phones and the Nord)
+* With [Uninstall Method](https://github.com/globalcargo/adbdebloater_opseries/blob/master/facebook_deletes) **(Riskier than disabling)**
 
 ### What if I want any app back?
 #### **Answer**:- Easy just install it from Play store or Install its Apk file.
