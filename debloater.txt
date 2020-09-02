@@ -50,7 +50,7 @@ pm uninstall --user 0 com.android.partnerbrowsercustomizations
 pm uninstall --user 0 com.android.settings.intelligence
     # Shared storage backup agent
 pm uninstall --user 0 com.android.sharedstoragebackup
-    # SIM Application Toolkit
+    # SIM Application Toolkit, also used by some banking apps
 # pm uninstall --user 0 com.android.stk
     # Enables system tracing in dev options
 pm uninstall --user 0 com.android.traceur
@@ -84,13 +84,13 @@ pm uninstall --user 0 com.google.android.apps.tachyon
 # pm uninstall --user 0 com.google.android.apps.turbo
     # Youtube Music incl. on Nord EU rom (check app name)
 pm uninstall --user 0 com.google.android.apps.youtube.music
-    #
+    # Google pay
 pm uninstall --user 0 com.google.android.apps.walletnfcrel
-    #
+    # Action services - device personalization 
 pm uninstall --user 0 com.google.android.as
-    #
+    # Google Calendar
 pm uninstall --user 0 com.google.android.calendar
-    #
+    # Google Feedback
 pm uninstall --user 0 com.google.android.feedback
     # Gmail App
 pm uninstall --user 0 com.google.android.gm
@@ -105,17 +105,17 @@ pm uninstall --user 0 com.google.android.music
 pm uninstall --user 0 com.google.android.apps.books
     # Cloud printing service
 pm uninstall --user 0 com.google.android.apps.cloudprint
-    #
+    # Runs on first boot (Google account, sync, backup options config screens on first boot) - delete after first boot
 pm uninstall --user 0 com.google.android.onetimeinitializer
-    #
+    # Provides service access to google products to other apps? 
 pm uninstall --user 0 com.google.android.partnersetup
-    #
+    # Recommends suitable printservices based on printer vendors detected else cloud print
 pm uninstall --user 0 com.google.android.printservice.recommendation
     # Android Auto
 pm uninstall --user 0 com.google.android.projection.gearhead
-    #
+    # Google setup wizard delete after first boot
 pm uninstall --user 0 com.google.android.setupwizard
-    #
+    # Text-to-speech engine
 pm uninstall --user 0 com.google.android.tts
     # Google Play Movies
 pm uninstall --user 0 com.google.android.videos
@@ -123,9 +123,9 @@ pm uninstall --user 0 com.google.android.videos
 pm uninstall --user 0 com.google.android.youtube
     # Netflix apps included in standard install
 pm uninstall --user 0 com.netflix.mediaclient 
-    #
+    # Not sure? Third party app access to netflix api?
 pm uninstall --user 0 com.netflix.partner.activation
-    #
+    # Autotest server, dev tools?
 pm uninstall --user 0 com.oem.autotest
     #
 pm uninstall --user 0 com.oem.logkitsdservice
@@ -173,11 +173,11 @@ pm uninstall --user 0 com.oneplus.opbugreportlite
 pm uninstall --user 0 com.oneplus.security
     #
 pm uninstall --user 0 com.oneplus.ses
-    #
+    # OP setup wizard delete after frist boot
 pm uninstall --user 0 com.oneplus.setupwizard
-    #
+    # OP Sound recorder
 pm uninstall --user 0 com.oneplus.soundrecorder
-    #
+    # Allows for data cap
 pm uninstall --user 0 com.qti.qualcomm.datastatusnotification
     #
 pm uninstall --user 0 com.qti.snapdragon.qdcm_ff
@@ -186,9 +186,9 @@ pm uninstall --user 0 com.qualcomm.uimremoteclient
     #
 pm uninstall --user 0 com.qualcomm.uimremoteserver
     #
-pm uninstall --user 0 com.tencent.soter.soterserver
-    #
-pm uninstall --user 0 com.wapi.wapicertmanage
+pm uninstall  --user 0 com.tencent.soter.soterserver
+    # WLAN Authentication and Privacy Infrastructure, Chinese natl. standard for wireless LANs 
+pm uninstall -k --user 0 com.wapi.wapicertmanage
     #
 pm uninstall --user 0 in.amazon.mShop.android.shopping
     #
