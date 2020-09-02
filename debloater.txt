@@ -53,7 +53,8 @@ pm uninstall --user 0 com.google.android.setupwizard
 pm uninstall --user 0 com.google.android.tts
 pm uninstall --user 0 com.google.android.videos
 pm uninstall --user 0 com.google.android.youtube
-pm uninstall --user 0 com.netflix.mediaclient
+# Netflix apps included in standard install
+pm uninstall --user 0 com.netflix.mediaclient 
 pm uninstall --user 0 com.netflix.partner.activation
 pm uninstall --user 0 com.oem.autotest
 pm uninstall --user 0 com.oem.logkitsdservice
@@ -69,6 +70,7 @@ pm uninstall --user 0 com.oneplus.diagnosemanager
 pm uninstall --user 0 com.oneplus.factorymode
 pm uninstall --user 0 com.oneplus.factorymode.specialtest
 pm uninstall --user 0 com.oneplus.filemanager
+# Gamespace app
 pm uninstall --user 0 com.oneplus.gamespace
 pm uninstall --user 0 com.oneplus.houston
 pm uninstall --user 0 com.oneplus.iconpack.circle
