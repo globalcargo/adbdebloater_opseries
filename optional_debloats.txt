@@ -27,3 +27,4 @@ User Dictionary	:			  pm uninstall --user 0 com.android.providers.userdictionary
 White Overlay (OP launcher) : pm uninstall --user 0 net.oneplus.launcher.white.overlay
 Work Profile :				  pm uninstall --user 0 com.android.managedprovisioning
 Zen Mode :                    pm uninstall --user 0 com.oneplus.brickmode
+Google One App :              pm uninstall --user 0 com.google.android.apps.subscriptions.red
