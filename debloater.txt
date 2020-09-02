@@ -4,6 +4,8 @@ pm uninstall --user 0 cn.oneplus.photos
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
 pm uninstall --user 0 com.amazon.kindle
 pm uninstall --user 0 com.amazon.mShop.android.shopping
+# Mobile Device Information Provider for Amazon, periodically pops up on OP roms
+pm uninstall --user 0 com.amazon.appmanager
 pm uninstall --user 0 com.android.apps.tag
 pm uninstall --user 0 com.android.bookmarkprovider
 pm uninstall --user 0 com.android.cellbroadcastreceiver
