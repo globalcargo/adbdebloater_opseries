@@ -1,8 +1,11 @@
 pm uninstall --user 0 cn.oneplus.nvbackup
 pm uninstall --user 0 cn.oneplus.oem_tcma
 pm uninstall --user 0 cn.oneplus.photos
+# Prime video client
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
+# Kindle app
 pm uninstall --user 0 com.amazon.kindle
+# Shopping and payments
 pm uninstall --user 0 com.amazon.mShop.android.shopping
 # Mobile Device Information Provider for Amazon, periodically pops up on OP roms
 pm uninstall --user 0 com.amazon.appmanager
