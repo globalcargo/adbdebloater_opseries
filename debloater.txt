@@ -1,47 +1,56 @@
-# NV Backup UI goes with OP Backup
+    # NV Backup UI goes with OP Backup
 pm uninstall --user 0 cn.oneplus.nvbackup
-# Tiered Contention Multiple Access, QoS-based dist. MAC protocol, may be relevant to Voice over WLan
+    # Tiered Contention Multiple Access, QoS-based dist. MAC protocol, may be relevant to Voice over WLan
 # pm uninstall --user 0 cn.oneplus.oem_tcma
-# Shot on OnePlus 
+    # Shot on OnePlus 
 pm uninstall --user 0 cn.oneplus.photos
-# Prime video client
+    # Prime video client
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
-# Kindle app
+    # Kindle app
 pm uninstall --user 0 com.amazon.kindle
-# Shopping and payments
+    # Shopping and payments
 pm uninstall --user 0 com.amazon.mShop.android.shopping
-# Mobile Device Information Provider for Amazon, periodically pops up on OP roms
+    # Mobile Device Information Provider for Amazon, periodically pops up on OP roms
 pm uninstall --user 0 com.amazon.appmanager
-# Default NFC tag viewer
+    # Default NFC tag viewer
 # pm uninstall --user 0 com.android.apps.tag 
-# Preseted bookmarks for Chrome	
+    # Preseted bookmarks for Chrome	
 pm uninstall --user 0 com.android.bookmarkprovider
-# For Short Message Service-Cell Broadcasts
+    # For Short Message Service-Cell Broadcasts
 # pm uninstall --user 0 com.android.cellbroadcastreceiver
-# Provides Wifi and BT scanning for apps that lack fine location or BT access
+    # Provides Wifi and BT scanning for apps that lack fine location or BT access
 pm uninstall --user 0 com.android.companiondevicemanager
-# Compatibility test suite device sided component 
+    # Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.ctsshim
-# Compatibility test suite device sided component 
+    # Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.priv.ctsshim
-# dreams imp. e.g. for interactive screen savers while docked or charging
+    # dreams imp. e.g. for interactive screen savers while docked or charging
 # pm uninstall --user 0 com.android.dreams.basic
-# Easter Egg
+    # Easter Egg
 pm uninstall --user 0 com.android.egg
-# external storage provider (we don't have on OP Nord)
+    # external storage provider (we don't have on OP Nord)
 pm uninstall --user 0 com.android.externalstorage
+    # hotword for google assitant, keeping files bc dev specific
+pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
+    # hotword for device wide voice detection
+pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
+    # may not be included on most roms. 
+pm uninstall -k --user 0 com.android.hotwordenrollment.tgoogle
+    # Default HTML viewer
+pm uninstall -k --user 0 com.android.htmlviewer
 
-pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
-
-pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
-
-pm uninstall --user 0 com.android.htmlviewer
 pm uninstall --user 0 com.android.inputdevices
 pm uninstall --user 0 com.android.providers.calendar
+
+    # OEM preseted bookmarks for Chrome
 pm uninstall --user 0 com.android.providers.partnerbookmarks
+    # SIM preseted bookmarks for Chrome (may be on branded devices)
+pm uninstall --user 0 com.android.partnerbrowsercustomizations
 pm uninstall --user 0 com.android.settings.intelligence
 pm uninstall --user 0 com.android.sharedstoragebackup
-pm uninstall --user 0 com.android.stk
+    # SIM Application Toolkit
+# pm uninstall --user 0 com.android.stk
+
 pm uninstall --user 0 com.android.traceur
 pm uninstall --user 0 com.android.wallpaper.livepicker
 pm uninstall --user 0 com.android.wallpaperbackup
@@ -51,10 +60,15 @@ pm uninstall --user 0 com.example.rftuner
 pm uninstall --user 0 com.example.tmo
 pm uninstall --user 0 com.example.wifirftest
 pm uninstall --user 0 com.fingerprints.fingerprintsensortest
+    # Google Drive
 pm uninstall --user 0 com.google.android.apps.docs
+# Google Maps app	
 pm uninstall --user 0 com.google.android.apps.maps
+    # Google Photos
 pm uninstall --user 0 com.google.android.apps.photos
+
 pm uninstall --user 0 com.google.android.apps.restore
+    # Google Duo
 pm uninstall --user 0 com.google.android.apps.tachyon
 pm uninstall --user 0 com.google.android.apps.turbo
 pm uninstall --user 0 com.google.android.apps.walletnfcrel
@@ -62,18 +76,29 @@ pm uninstall --user 0 com.google.android.as
 pm uninstall --user 0 com.google.android.calendar
 pm uninstall --user 0 com.google.android.feedback
 pm uninstall --user 0 com.google.android.gm
+    # Google Connectivity Services scans for open high quality wifi networks (usually proj. fi phones only, prob. not on O2os)
+pm uninstall -k --user 0 com.google.android.apps.gcs
 pm uninstall --user 0 com.google.android.googlequicksearchbox
+    # Android Accessibility Suite
 pm uninstall --user 0 com.google.android.marvin.talkback
+    # Google Music
 pm uninstall --user 0 com.google.android.music
+    # Google Books
+pm uninstall --user 0 com.google.android.apps.books
+# Cloud printing service
+pm uninstall --user 0 com.google.android.apps.cloudprint
 pm uninstall --user 0 com.google.android.onetimeinitializer
 pm uninstall --user 0 com.google.android.partnersetup
 pm uninstall --user 0 com.google.android.printservice.recommendation
+    # Android Auto
 pm uninstall --user 0 com.google.android.projection.gearhead
 pm uninstall --user 0 com.google.android.setupwizard
 pm uninstall --user 0 com.google.android.tts
+    # Google Play Movies
 pm uninstall --user 0 com.google.android.videos
+    # Youtube
 pm uninstall --user 0 com.google.android.youtube
-# Netflix apps included in standard install
+    # Netflix apps included in standard install
 pm uninstall --user 0 com.netflix.mediaclient 
 pm uninstall --user 0 com.netflix.partner.activation
 pm uninstall --user 0 com.oem.autotest
@@ -90,7 +115,7 @@ pm uninstall --user 0 com.oneplus.diagnosemanager
 pm uninstall --user 0 com.oneplus.factorymode
 pm uninstall --user 0 com.oneplus.factorymode.specialtest
 pm uninstall --user 0 com.oneplus.filemanager
-# Gamespace app
+    # Gamespace app
 pm uninstall --user 0 com.oneplus.gamespace
 pm uninstall --user 0 com.oneplus.houston
 pm uninstall --user 0 com.oneplus.iconpack.circle
@@ -112,9 +137,9 @@ pm uninstall --user 0 com.wapi.wapicertmanage
 pm uninstall --user 0 in.amazon.mShop.android.shopping
 pm uninstall --user 0 net.oneplus.commonlogtool
 pm uninstall --user 0 net.oneplus.forums
-# ODM is OP's corproate telemetry aka analytics service, removal did break usb tethering on past versions of OS
+    # ODM is OP's corproate telemetry aka analytics service, removal did break usb tethering on past versions of OS
 pm uninstall --user 0 net.oneplus.odm
-# IF you have issue with tethering try just removing the ODM provider
+    # IF you have issue with tethering try just removing the ODM provider
 pm uninstall --user 0 net.oneplus.odm.provider
 
 pm uninstall --user 0 net.oneplus.provider.appcategoryprovider
