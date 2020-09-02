@@ -4,10 +4,10 @@ pm uninstall -k --user 0 com.facebook.services
 
 pm uninstall -k --user 0 com.facebook.system
 
-# not installed on NORD EU rom of OxygenOS
+# not installed on NORD EU rom of OxygenOS (This is the actual FB app)
 pm uninstall -k --user 0 com.facebook.katana
 
-# not installed on NORD EU rom of OxygenOS
+# not installed on NORD EU rom of OxygenOS (This is FB messenger)
 pm uninstall -k --user 0 com.facebook.orca
 
 # optional if your rom has IG (a facebook product) installed and you don't want it
