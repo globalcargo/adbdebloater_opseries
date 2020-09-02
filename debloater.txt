@@ -2,7 +2,7 @@
 pm uninstall --user 0 cn.oneplus.nvbackup
     # Tiered Contention Multiple Access, QoS-based dist. MAC protocol, may be relevant to Voice over WLan
 # pm uninstall --user 0 cn.oneplus.oem_tcma
-    # Shot on OnePlus 
+    # Shot on OnePlus watermark
 pm uninstall --user 0 cn.oneplus.photos
     # Prime video client
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
@@ -40,35 +40,35 @@ pm uninstall -k --user 0 com.android.hotwordenrollment.tgoogle
 pm uninstall -k --user 0 com.android.htmlviewer
     # Manages input devices
 # pm uninstall --user 0 com.android.inputdevices
-    # 
-pm uninstall --user 0 com.android.providers.calendar
+    # Cal event storage provider
+# pm uninstall --user 0 com.android.providers.calendar
     # OEM preseted bookmarks for Chrome
 pm uninstall --user 0 com.android.providers.partnerbookmarks
     # SIM preseted bookmarks for Chrome (may be on branded devices)
 pm uninstall --user 0 com.android.partnerbrowsercustomizations
-    #
+    # Context based settings suggestions
 pm uninstall --user 0 com.android.settings.intelligence
-    #
+    # Shared storage backup agent
 pm uninstall --user 0 com.android.sharedstoragebackup
     # SIM Application Toolkit
 # pm uninstall --user 0 com.android.stk
-    #
+    # Enables system tracing in dev options
 pm uninstall --user 0 com.android.traceur
-    #
+    # Wallpaper picker
 pm uninstall --user 0 com.android.wallpaper.livepicker
-    #
+    # Wall paper backup agent?
 pm uninstall --user 0 com.android.wallpaperbackup
-    #
-pm uninstall --user 0 com.dsi.ant.server
-    #
-pm uninstall --user 0 com.dsl.ant.server
-    #
+    # ANT HAL Service
+# pm uninstall --user 0 com.dsi.ant.server
+    # ATN+ device support?
+# pm uninstall --user 0 com.dsl.ant.server
+    # Unsure about purpose? But removable
 pm uninstall --user 0 com.example.rftuner
-    #
+    # Locks LTE bands (t-mobile) 
 pm uninstall --user 0 com.example.tmo
-    #
+    # Wifi RF test app
 pm uninstall --user 0 com.example.wifirftest
-    #
+    # FP sensor test app
 pm uninstall --user 0 com.fingerprints.fingerprintsensortest
     # Google Drive
 pm uninstall --user 0 com.google.android.apps.docs
@@ -76,13 +76,13 @@ pm uninstall --user 0 com.google.android.apps.docs
 pm uninstall --user 0 com.google.android.apps.maps
     # Google Photos
 pm uninstall --user 0 com.google.android.apps.photos
-    #
+    # Not certain, might be app restore based on play account history?
 pm uninstall --user 0 com.google.android.apps.restore
     # Google Duo
 pm uninstall --user 0 com.google.android.apps.tachyon
     # Device health service system app, personalizes battery life estimate etc.
 # pm uninstall --user 0 com.google.android.apps.turbo
-    # Youtube Music
+    # Youtube Music incl. on Nord EU rom (check app name)
 pm uninstall --user 0 com.google.android.apps.youtube.music
     #
 pm uninstall --user 0 com.google.android.apps.walletnfcrel
@@ -135,7 +135,7 @@ pm uninstall --user 0 com.oem.nfc
 pm uninstall --user 0 com.oem.oemlogkit
     #
 pm uninstall --user 0 com.oem.rftoolkit
-    #
+    # onePlus account sync
 pm uninstall --user 0 com.oneplus.account
     #
 pm uninstall --user 0 com.oneplus.backuprestore
