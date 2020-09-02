@@ -32,7 +32,7 @@ ADB devices
 ADB shell
 ```
 5. Use the files from this repo with a bash sript or similar
-6. If you don't want some apps to be removed remove respective lines.
+6. If you don't want some apps to be removed remove respective lines or comment them out if your shell/script supports it.
 7. Done Enjoy!!!
 
 ## Scripts
