@@ -164,37 +164,37 @@ pm uninstall --user 0 com.oneplus.gamespace
 # pm uninstall --user 0 com.oneplus.iconpack.oneplus
     # Icon pack
 # pm uninstall --user 0 com.oneplus.iconpack.square
-    #
+    # Internet Finance Authentication Alliance blob for Alipay and WeChat Pay etc.
 pm uninstall --user 0 com.oneplus.ifaaservice
-    #
-pm uninstall --user 0 com.oneplus.note
+    # OP Notes app
+pm uninstall -k --user 0 com.oneplus.note
     # OP bug reporter
 pm uninstall --user 0 com.oneplus.opbugreportlite
-    #
-pm uninstall --user 0 com.oneplus.security
-    #
-pm uninstall --user 0 com.oneplus.ses
+    # OP Dashboard 
+# pm uninstall -k --user 0 com.oneplus.security
+    # SES Auth?
+pm uninstall -k --user 0 com.oneplus.ses
     # OP setup wizard delete after frist boot
 pm uninstall --user 0 com.oneplus.setupwizard
     # OP Sound recorder
 pm uninstall --user 0 com.oneplus.soundrecorder
     # Allows for data cap
 pm uninstall --user 0 com.qti.qualcomm.datastatusnotification
-    #
-pm uninstall --user 0 com.qti.snapdragon.qdcm_ff
+    # Qualcomm Display Color Management tool
+# pm uninstall -k --user 0 com.qti.snapdragon.qdcm_ff
     #
 pm uninstall --user 0 com.qualcomm.uimremoteclient
     #
 pm uninstall --user 0 com.qualcomm.uimremoteserver
-    #
+    # Tencent soter auth serice?
 pm uninstall  --user 0 com.tencent.soter.soterserver
     # WLAN Authentication and Privacy Infrastructure, Chinese natl. standard for wireless LANs 
 pm uninstall -k --user 0 com.wapi.wapicertmanage
-    #
+    # Amazon India shopping app
 pm uninstall --user 0 in.amazon.mShop.android.shopping
     #
 pm uninstall --user 0 net.oneplus.commonlogtool
-    #
+    # OP Community app
 pm uninstall --user 0 net.oneplus.forums
     # ODM is OP's corproate telemetry aka analytics service, removal did break usb tethering on past versions of OS
 pm uninstall --user 0 net.oneplus.odm
