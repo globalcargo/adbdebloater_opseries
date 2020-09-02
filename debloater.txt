@@ -27,7 +27,7 @@ pm uninstall --user 0 com.android.cts.ctsshim
 pm uninstall --user 0 com.android.cts.priv.ctsshim
     # dreams imp. e.g. for interactive screen savers while docked or charging
 # pm uninstall --user 0 com.android.dreams.basic
-    # Easter Egg
+    # Android Easter Egg
 pm uninstall --user 0 com.android.egg
     # external storage provider (we don't have on OP Nord)
 pm uninstall --user 0 com.android.externalstorage
@@ -138,22 +138,22 @@ pm uninstall --user 0 com.oem.oemlogkit
 pm uninstall -k --user 0 com.oem.rftoolkit
     # onePlus account sync
 pm uninstall --user 0 com.oneplus.account
-    #
-pm uninstall --user 0 com.oneplus.backuprestore
-    #
-pm uninstall --user 0 com.oneplus.backuprestore.remoteservice
+    # OP Switch app to migrate data from old to new phone or backup apps to computer
+pm uninstall -k --user 0 com.oneplus.backuprestore
+    # OP Switch remote service component
+pm uninstall -k --user 0 com.oneplus.backuprestore.remoteservice
     # Bluetooth test mode
 pm uninstall --user 0 com.oneplus.bttestmode
     # OnePlus Entity Card
 pm uninstall --user 0 com.oneplus.card
-    #
+    # OP Telephony Diagnose Manager
 pm uninstall --user 0 com.oneplus.diagnosemanager
-    #
+    # Orig. Qualcomm Eng. Mode - may allow complete device access if physical access - remove
 pm uninstall --user 0 com.oneplus.factorymode
-    #
+    # Eng. mode special test?
 pm uninstall --user 0 com.oneplus.factorymode.specialtest
-    #
-pm uninstall --user 0 com.oneplus.filemanager
+    # OP File manager
+# pm uninstall -k --user 0 com.oneplus.filemanager
     # Gamespace app
 pm uninstall --user 0 com.oneplus.gamespace
     # Kernel driver? 
