@@ -12,23 +12,23 @@ pm uninstall --user 0 com.amazon.kindle
 pm uninstall --user 0 com.amazon.mShop.android.shopping
 # Mobile Device Information Provider for Amazon, periodically pops up on OP roms
 pm uninstall --user 0 com.amazon.appmanager
-#
-pm uninstall --user 0 com.android.apps.tag
-
+# Default NFC tag viewer
+# pm uninstall --user 0 com.android.apps.tag 
+# Preseted bookmarks for Chrome	
 pm uninstall --user 0 com.android.bookmarkprovider
-
-pm uninstall --user 0 com.android.cellbroadcastreceiver
-
+# For Short Message Service-Cell Broadcasts
+# pm uninstall --user 0 com.android.cellbroadcastreceiver
+# Provides Wifi and BT scanning for apps that lack fine location or BT access
 pm uninstall --user 0 com.android.companiondevicemanager
-
+# Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.ctsshim
-
+# Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.priv.ctsshim
-
-pm uninstall --user 0 com.android.dreams.basic
-
+# dreams imp. e.g. for interactive screen savers while docked or charging
+# pm uninstall --user 0 com.android.dreams.basic
+# Easter Egg
 pm uninstall --user 0 com.android.egg
-
+# external storage provider (we don't have on OP Nord)
 pm uninstall --user 0 com.android.externalstorage
 
 pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
