@@ -1,5 +1,8 @@
+# NV Backup UI goes with OP Backup
 pm uninstall --user 0 cn.oneplus.nvbackup
-pm uninstall --user 0 cn.oneplus.oem_tcma
+# Tiered Contention Multiple Access, QoS-based dist. MAC protocol, may be relevant to Voice over WLan
+# pm uninstall --user 0 cn.oneplus.oem_tcma
+# Shot on OnePlus 
 pm uninstall --user 0 cn.oneplus.photos
 # Prime video client
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
@@ -9,17 +12,29 @@ pm uninstall --user 0 com.amazon.kindle
 pm uninstall --user 0 com.amazon.mShop.android.shopping
 # Mobile Device Information Provider for Amazon, periodically pops up on OP roms
 pm uninstall --user 0 com.amazon.appmanager
+#
 pm uninstall --user 0 com.android.apps.tag
+
 pm uninstall --user 0 com.android.bookmarkprovider
+
 pm uninstall --user 0 com.android.cellbroadcastreceiver
+
 pm uninstall --user 0 com.android.companiondevicemanager
+
 pm uninstall --user 0 com.android.cts.ctsshim
+
 pm uninstall --user 0 com.android.cts.priv.ctsshim
+
 pm uninstall --user 0 com.android.dreams.basic
+
 pm uninstall --user 0 com.android.egg
+
 pm uninstall --user 0 com.android.externalstorage
+
 pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
+
 pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
+
 pm uninstall --user 0 com.android.htmlviewer
 pm uninstall --user 0 com.android.inputdevices
 pm uninstall --user 0 com.android.providers.calendar
@@ -97,8 +112,11 @@ pm uninstall --user 0 com.wapi.wapicertmanage
 pm uninstall --user 0 in.amazon.mShop.android.shopping
 pm uninstall --user 0 net.oneplus.commonlogtool
 pm uninstall --user 0 net.oneplus.forums
+# ODM is OP's corproate telemetry aka analytics service, removal did break usb tethering on past versions of OS
 pm uninstall --user 0 net.oneplus.odm
+# IF you have issue with tethering try just removing the ODM provider
 pm uninstall --user 0 net.oneplus.odm.provider
+
 pm uninstall --user 0 net.oneplus.provider.appcategoryprovider
 pm uninstall --user 0 net.oneplus.push
 pm uninstall --user 0 net.oneplus.weather
