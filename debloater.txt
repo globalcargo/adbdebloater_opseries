@@ -192,7 +192,7 @@ pm uninstall  --user 0 com.tencent.soter.soterserver
 pm uninstall -k --user 0 com.wapi.wapicertmanage
     # Amazon India shopping app
 pm uninstall --user 0 in.amazon.mShop.android.shopping
-    #
+    # More logging tools?
 pm uninstall --user 0 net.oneplus.commonlogtool
     # OP Community app
 pm uninstall --user 0 net.oneplus.forums
@@ -200,11 +200,11 @@ pm uninstall --user 0 net.oneplus.forums
 pm uninstall --user 0 net.oneplus.odm
     # IF you have issue with tethering try just removing the ODM provider
 pm uninstall --user 0 net.oneplus.odm.provider
-    #
-pm uninstall --user 0 net.oneplus.provider.appcategoryprovider
+    # May be relevant to battery stats
+# pm uninstall -k --user 0 net.oneplus.provider.appcategoryprovider
     # Push notifications from OP
 pm uninstall --user 0 net.oneplus.push
-    #
+    # OP Weather app
 pm uninstall --user 0 net.oneplus.weather
-    #
-pm uninstall --user 0 net.oneplus.widget
+    # Clock Widget? 
+# pm uninstall -k --user 0 net.oneplus.widget
