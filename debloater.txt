@@ -97,6 +97,7 @@ pm uninstall --user 0 com.google.android.feedback
 pm uninstall --user 0 com.google.android.gm
     # Google Connectivity Services scans for open high quality wifi networks (usually proj. fi phones only, prob. not on O2os)
 pm uninstall -k --user 0 com.google.android.apps.gcs
+    # Goolge search with assistant on desktop
 pm uninstall --user 0 com.google.android.googlequicksearchbox
     # Android Accessibility Suite
 pm uninstall --user 0 com.google.android.marvin.talkback
