@@ -1,105 +1,211 @@
+## apps that I may want to quickl reinstall with OP settings are uninstalled with -k flag
+   # NV Backup UI goes with OP Backup
 pm uninstall --user 0 cn.oneplus.nvbackup
-pm uninstall --user 0 cn.oneplus.oem_tcma
+    # Tiered Contention Multiple Access, QoS-based dist. MAC protocol, may be relevant to Voice over WLan
+# pm uninstall --user 0 cn.oneplus.oem_tcma
+    # Shot on OnePlus watermark
 pm uninstall --user 0 cn.oneplus.photos
-# Prime video client
+    # Prime video client
 pm uninstall --user 0 com.amazon.avod.thirdpartyclient
-# Kindle app
+    # Kindle app
 pm uninstall --user 0 com.amazon.kindle
-# Shopping and payments
+    # Shopping and payments
 pm uninstall --user 0 com.amazon.mShop.android.shopping
-# Mobile Device Information Provider for Amazon, periodically pops up on OP roms
+    # Mobile Device Information Provider for Amazon, periodically pops up on OP roms
 pm uninstall --user 0 com.amazon.appmanager
-pm uninstall --user 0 com.android.apps.tag
+    # Default NFC tag viewer
+# pm uninstall --user 0 com.android.apps.tag 
+    # Preseted bookmarks for Chrome	
 pm uninstall --user 0 com.android.bookmarkprovider
-pm uninstall --user 0 com.android.cellbroadcastreceiver
+    # For Short Message Service-Cell Broadcasts
+# pm uninstall --user 0 com.android.cellbroadcastreceiver
+    # Provides Wifi and BT scanning for apps that lack fine location or BT access
 pm uninstall --user 0 com.android.companiondevicemanager
+    # Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.ctsshim
+    # Compatibility test suite device sided component 
 pm uninstall --user 0 com.android.cts.priv.ctsshim
-pm uninstall --user 0 com.android.dreams.basic
+    # dreams imp. e.g. for interactive screen savers while docked or charging
+# pm uninstall --user 0 com.android.dreams.basic
+    # Android Easter Egg
 pm uninstall --user 0 com.android.egg
+    # external storage provider (we don't have on OP Nord)
 pm uninstall --user 0 com.android.externalstorage
-pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
-pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
-pm uninstall --user 0 com.android.htmlviewer
-pm uninstall --user 0 com.android.inputdevices
-pm uninstall --user 0 com.android.providers.calendar
+    # hotword for google assitant, keeping files bc dev specific
+pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
+    # hotword for device wide voice detection
+pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
+    # may not be included on most roms. 
+pm uninstall -k --user 0 com.android.hotwordenrollment.tgoogle
+    # Default HTML viewer
+pm uninstall -k --user 0 com.android.htmlviewer
+    # Manages input devices
+# pm uninstall --user 0 com.android.inputdevices
+    # Cal event storage provider
+# pm uninstall --user 0 com.android.providers.calendar
+    # OEM preseted bookmarks for Chrome
 pm uninstall --user 0 com.android.providers.partnerbookmarks
+    # SIM preseted bookmarks for Chrome (may be on branded devices)
+pm uninstall --user 0 com.android.partnerbrowsercustomizations
+    # Context based settings suggestions
 pm uninstall --user 0 com.android.settings.intelligence
+    # Shared storage backup agent
 pm uninstall --user 0 com.android.sharedstoragebackup
-pm uninstall --user 0 com.android.stk
+    # SIM Application Toolkit, also used by some banking apps
+# pm uninstall --user 0 com.android.stk
+    # Enables system tracing in dev options
 pm uninstall --user 0 com.android.traceur
+    # Wallpaper picker
 pm uninstall --user 0 com.android.wallpaper.livepicker
+    # Wall paper backup agent?
 pm uninstall --user 0 com.android.wallpaperbackup
-pm uninstall --user 0 com.dsi.ant.server
-pm uninstall --user 0 com.dsl.ant.server
+    # ANT HAL Service
+# pm uninstall --user 0 com.dsi.ant.server
+    # ATN+ device support?
+# pm uninstall --user 0 com.dsl.ant.server
+    # Unsure about purpose? But removable
 pm uninstall --user 0 com.example.rftuner
+    # Locks LTE bands (t-mobile) 
 pm uninstall --user 0 com.example.tmo
+    # Wifi RF test app
 pm uninstall --user 0 com.example.wifirftest
+    # FP sensor test app
 pm uninstall --user 0 com.fingerprints.fingerprintsensortest
+    # Google Drive
 pm uninstall --user 0 com.google.android.apps.docs
+    # Google Maps app	
 pm uninstall --user 0 com.google.android.apps.maps
+    # Google Photos
 pm uninstall --user 0 com.google.android.apps.photos
+    # Not certain, might be app restore based on play account history?
 pm uninstall --user 0 com.google.android.apps.restore
+    # Google Duo
 pm uninstall --user 0 com.google.android.apps.tachyon
-pm uninstall --user 0 com.google.android.apps.turbo
+    # Device health service system app, personalizes battery life estimate etc.
+# pm uninstall --user 0 com.google.android.apps.turbo
+    # Youtube Music incl. on Nord EU rom (check app name)
+pm uninstall --user 0 com.google.android.apps.youtube.music
+    # Google pay
 pm uninstall --user 0 com.google.android.apps.walletnfcrel
+    # Action services - device personalization 
 pm uninstall --user 0 com.google.android.as
+    # Google Calendar
 pm uninstall --user 0 com.google.android.calendar
+    # Google Feedback
 pm uninstall --user 0 com.google.android.feedback
+    # Gmail App
 pm uninstall --user 0 com.google.android.gm
+    # Google Connectivity Services scans for open high quality wifi networks (usually proj. fi phones only, prob. not on O2os)
+pm uninstall -k --user 0 com.google.android.apps.gcs
+    # Goolge search with assistant on desktop
 pm uninstall --user 0 com.google.android.googlequicksearchbox
+    # Android Accessibility Suite
 pm uninstall --user 0 com.google.android.marvin.talkback
+    # Google Music
 pm uninstall --user 0 com.google.android.music
+    # Google Books
+pm uninstall --user 0 com.google.android.apps.books
+    # Cloud printing service
+pm uninstall --user 0 com.google.android.apps.cloudprint
+    # Runs on first boot (Google account, sync, backup options config screens on first boot) - delete after first boot
 pm uninstall --user 0 com.google.android.onetimeinitializer
+    # Provides service access to google products to other apps? 
 pm uninstall --user 0 com.google.android.partnersetup
+    # Recommends suitable printservices based on printer vendors detected else cloud print
 pm uninstall --user 0 com.google.android.printservice.recommendation
+    # Android Auto
 pm uninstall --user 0 com.google.android.projection.gearhead
+    # Google setup wizard delete after first boot
 pm uninstall --user 0 com.google.android.setupwizard
+    # Text-to-speech engine
 pm uninstall --user 0 com.google.android.tts
+    # Google Play Movies
 pm uninstall --user 0 com.google.android.videos
+    # Youtube
 pm uninstall --user 0 com.google.android.youtube
-# Netflix apps included in standard install
+    # Netflix apps included in standard install
 pm uninstall --user 0 com.netflix.mediaclient 
+    # Not sure? Third party app access to netflix api?
 pm uninstall --user 0 com.netflix.partner.activation
+    # Autotest server, dev tools?
 pm uninstall --user 0 com.oem.autotest
+    # System service for login facility, check out with *#800#
 pm uninstall --user 0 com.oem.logkitsdservice
-pm uninstall --user 0 com.oem.nfc
+    # NFC tester
+pm uninstall -k --user 0 com.oem.nfc
+    # System loggin facility, check out with *#800#
 pm uninstall --user 0 com.oem.oemlogkit
-pm uninstall --user 0 com.oem.rftoolkit
+    # Qualcomm? rf tookit - Allows sub selection of supporte RF bands
+pm uninstall -k --user 0 com.oem.rftoolkit
+    # onePlus account sync
 pm uninstall --user 0 com.oneplus.account
-pm uninstall --user 0 com.oneplus.backuprestore
-pm uninstall --user 0 com.oneplus.backuprestore.remoteservice
+    # OP Switch app to migrate data from old to new phone or backup apps to computer
+pm uninstall -k --user 0 com.oneplus.backuprestore
+    # OP Switch remote service component
+pm uninstall -k --user 0 com.oneplus.backuprestore.remoteservice
+    # Bluetooth test mode
 pm uninstall --user 0 com.oneplus.bttestmode
+    # OnePlus Entity Card
 pm uninstall --user 0 com.oneplus.card
+    # OP Telephony Diagnose Manager
 pm uninstall --user 0 com.oneplus.diagnosemanager
+    # Orig. Qualcomm Eng. Mode - may allow complete device access if physical access - remove
 pm uninstall --user 0 com.oneplus.factorymode
+    # Eng. mode special test?
 pm uninstall --user 0 com.oneplus.factorymode.specialtest
-pm uninstall --user 0 com.oneplus.filemanager
-# Gamespace app
+    # OP File manager
+# pm uninstall -k --user 0 com.oneplus.filemanager
+    # Gamespace app
 pm uninstall --user 0 com.oneplus.gamespace
-pm uninstall --user 0 com.oneplus.houston
-pm uninstall --user 0 com.oneplus.iconpack.circle
-pm uninstall --user 0 com.oneplus.iconpack.oneplus
-pm uninstall --user 0 com.oneplus.iconpack.square
+    # Kernel driver? 
+# pm uninstall --user 0 com.oneplus.houston
+    # Icon pack
+# pm uninstall --user 0 com.oneplus.iconpack.circle
+    # Icon pack
+# pm uninstall --user 0 com.oneplus.iconpack.oneplus
+    # Icon pack
+# pm uninstall --user 0 com.oneplus.iconpack.square
+    # Internet Finance Authentication Alliance blob for Alipay and WeChat Pay etc.
 pm uninstall --user 0 com.oneplus.ifaaservice
-pm uninstall --user 0 com.oneplus.note
+    # OP Notes app
+pm uninstall -k --user 0 com.oneplus.note
+    # OP bug reporter
 pm uninstall --user 0 com.oneplus.opbugreportlite
-pm uninstall --user 0 com.oneplus.security
-pm uninstall --user 0 com.oneplus.ses
+    # OP Dashboard 
+# pm uninstall -k --user 0 com.oneplus.security
+    # SES Auth?
+pm uninstall -k --user 0 com.oneplus.ses
+    # OP setup wizard delete after frist boot
 pm uninstall --user 0 com.oneplus.setupwizard
+    # OP Sound recorder
 pm uninstall --user 0 com.oneplus.soundrecorder
+    # Allows for data cap
 pm uninstall --user 0 com.qti.qualcomm.datastatusnotification
-pm uninstall --user 0 com.qti.snapdragon.qdcm_ff
-pm uninstall --user 0 com.qualcomm.uimremoteclient
-pm uninstall --user 0 com.qualcomm.uimremoteserver
-pm uninstall --user 0 com.tencent.soter.soterserver
-pm uninstall --user 0 com.wapi.wapicertmanage
+    # Qualcomm Display Color Management tool
+# pm uninstall -k --user 0 com.qti.snapdragon.qdcm_ff
+    # User identiy module related? 
+pm uninstall -k --user 0 com.qualcomm.uimremoteclient
+    # User identiy module related? 
+pm uninstall -k --user 0 com.qualcomm.uimremoteserver
+    # Tencent soter auth serice?
+pm uninstall  --user 0 com.tencent.soter.soterserver
+    # WLAN Authentication and Privacy Infrastructure, Chinese natl. standard for wireless LANs 
+pm uninstall -k --user 0 com.wapi.wapicertmanage
+    # Amazon India shopping app
 pm uninstall --user 0 in.amazon.mShop.android.shopping
+    # More logging tools?
 pm uninstall --user 0 net.oneplus.commonlogtool
+    # OP Community app
 pm uninstall --user 0 net.oneplus.forums
+    # ODM is OP's corproate telemetry aka analytics service, removal did break usb tethering on past versions of OS
 pm uninstall --user 0 net.oneplus.odm
+    # IF you have issue with tethering try just removing the ODM provider
 pm uninstall --user 0 net.oneplus.odm.provider
-pm uninstall --user 0 net.oneplus.provider.appcategoryprovider
+    # May be relevant to battery stats
+# pm uninstall -k --user 0 net.oneplus.provider.appcategoryprovider
+    # Push notifications from OP
 pm uninstall --user 0 net.oneplus.push
+    # OP Weather app
 pm uninstall --user 0 net.oneplus.weather
-pm uninstall --user 0 net.oneplus.widget
+    # Clock Widget? 
+# pm uninstall -k --user 0 net.oneplus.widget
