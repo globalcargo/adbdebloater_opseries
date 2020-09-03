@@ -182,10 +182,10 @@ pm uninstall --user 0 com.oneplus.soundrecorder
 pm uninstall --user 0 com.qti.qualcomm.datastatusnotification
     # Qualcomm Display Color Management tool
 # pm uninstall -k --user 0 com.qti.snapdragon.qdcm_ff
-    #
-pm uninstall --user 0 com.qualcomm.uimremoteclient
-    #
-pm uninstall --user 0 com.qualcomm.uimremoteserver
+    # User identiy module related? 
+pm uninstall -k --user 0 com.qualcomm.uimremoteclient
+    # User identiy module related? 
+pm uninstall -k --user 0 com.qualcomm.uimremoteserver
     # Tencent soter auth serice?
 pm uninstall  --user 0 com.tencent.soter.soterserver
     # WLAN Authentication and Privacy Infrastructure, Chinese natl. standard for wireless LANs 
