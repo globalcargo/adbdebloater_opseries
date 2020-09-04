@@ -52,7 +52,7 @@ pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector
     #
 pm disable-user --user 0 com.google.android.gms.location.history
     # gboard - only disable if alternative imput method available during startup
-pm disable-user --user 0 com.google.android.inputmethod.latin
+# pm disable-user --user 0 com.google.android.inputmethod.latin
 
     #
 pm disable-user --user 0 com.android.pacprocessor
