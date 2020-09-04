@@ -133,8 +133,8 @@ pm uninstall --user 0 com.oem.autotest
 pm uninstall --user 0 com.oem.logkitsdservice
     # NFC tester
 pm uninstall -k --user 0 com.oem.nfc
-    # System loggin facility, check out with *#800#
-pm uninstall --user 0 com.oem.oemlogkit
+    # System loggin facility, check out with *#800# - you may need access to this to enable VoLTE VoWiFi
+# pm uninstall -k --user 0 com.oem.oemlogkit
     # Qualcomm? rf tookit - Allows sub selection of supporte RF bands
 pm uninstall -k --user 0 com.oem.rftoolkit
     # onePlus account sync
@@ -149,8 +149,8 @@ pm uninstall --user 0 com.oneplus.bttestmode
 pm uninstall --user 0 com.oneplus.card
     # OP Telephony Diagnose Manager
 pm uninstall --user 0 com.oneplus.diagnosemanager
-    # Orig. Qualcomm Eng. Mode - may allow complete device access if physical access - remove
-pm uninstall --user 0 com.oneplus.factorymode
+    # Orig. Qualcomm Eng. Mode - may allow complete device access if physical access, but you may need access to this to enable VoLTE VoWiFi
+# pm uninstall -k --user 0 com.oneplus.factorymode
     # Eng. mode special test?
 pm uninstall --user 0 com.oneplus.factorymode.specialtest
     # OP File manager
