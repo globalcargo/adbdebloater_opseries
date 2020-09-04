@@ -29,8 +29,8 @@ pm uninstall --user 0 com.android.cts.priv.ctsshim
 # pm uninstall --user 0 com.android.dreams.basic
     # Android Easter Egg
 pm uninstall --user 0 com.android.egg
-    # external storage provider (we don't have on OP Nord)
-pm uninstall --user 0 com.android.externalstorage
+    # external storage provider, needed for storage stats in OP filemanger to work properly
+# pm uninstall -k --user 0 com.android.externalstorage
     # hotword for google assitant, keeping files bc dev specific
 pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle
     # hotword for device wide voice detection
