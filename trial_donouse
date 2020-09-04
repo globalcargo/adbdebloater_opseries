@@ -1,0 +1,76 @@
+# testing out impact of disabling apps below
+# test only
+
+## Google 
+
+    #
+pm disable-user --user 0 com.google.android.ext.services
+    #
+pm disable-user --user 0 com.google.android.ext.shared
+    #
+pm disable-user --user 0 com.google.android.apps.messaging
+    #
+pm disable-user --user 0 com.google.android.overlay.gmsgsaconfig
+    #
+pm disable-user --user 0 com.google.android.configupdater
+    #
+# pm disable-user --user 0 com.google.android.overlay.modules.permissioncontroller
+    #
+pm disable-user --user 0 com.google.ar.core
+    #
+pm disable-user --user 0 com.android.vending
+    #
+pm disable-user --user 0 com.google.android.apps.work.oobconfig
+    #
+# pm disable-user --user 0 com.google.android.permissioncontroller
+    #
+pm disable-user --user 0 com.google.android.overlay.modules.ext.services
+    #
+pm disable-user --user 0 com.google.android.dialer
+    #
+pm disable-user --user 0 com.google.android.overlay.gmsconfig
+    #
+pm disable-user --user 0 com.google.android.modulemetadata
+    #
+pm disable-user --user 0 com.google.android.packageinstaller
+    #
+pm disable-user --user 0 com.google.android.gms
+    #
+pm disable-user --user 0 com.google.android.gsf
+    #
+pm disable-user --user 0 com.google.android.ims
+    #
+pm disable-user --user 0 com.google.android.overlay.modules.permissioncontroller.forframework
+    #
+pm disable-user --user 0 com.google.android.documentsui
+    #
+pm disable-user --user 0 com.google.android.apps.setupwizard.searchselector
+    #
+pm disable-user --user 0 com.android.pacprocessor
+    #
+pm disable-user --user 0 com.google.android.gms.location.history
+    #
+pm disable-user --user 0 com.android.settings.intelligence.basiccolorblack.overlay
+
+
+
+
+## Qualcomm
+
+    # Qualcomm Voice Assist provides always-on keyword detection for enabled voice assistants on your device.
+pm disable-user --user 0 com.quicinc.voice.activation
+    #
+pm disable-user --user 0 com.qualcomm.qti.devicestatisticsservice
+    # scans for bt and wifi and cell towers nearby, send back ID token and location to Qualcomm periodically
+pm disable-user --user 0 com.qualcomm.location
+    #
+# pm disable-user --user 0 com.qualcomm.qti.qwes.AndroidService
+
+
+## OnePlus
+
+    #
+pm disable-user --user 0 com.oneplus.carrierlocation
+    # for wirelss ear buds
+pm disable-user --user 0 com.oneplus.twspods
+
