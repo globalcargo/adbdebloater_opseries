@@ -41,7 +41,7 @@ pm uninstall -k --user 0 com.android.hotwordenrollment.tgoogle
 pm uninstall -k --user 0 com.android.htmlviewer
     # Manages input devices
 # pm uninstall --user 0 com.android.inputdevices
-    # Cal event storage provider
+    # Cal event storage provider, you may still need this for 3rd party cal apps to work
 # pm uninstall -k --user 0 com.android.providers.calendar
     # OEM preseted bookmarks for Chrome
 pm uninstall --user 0 com.android.providers.partnerbookmarks
@@ -209,3 +209,18 @@ pm uninstall --user 0 net.oneplus.push
 pm uninstall --user 0 net.oneplus.weather
     # Clock Widget? 
 # pm uninstall -k --user 0 net.oneplus.widget
+
+
+### extra google services you may want to remove
+# Contact sync service with gmail etc.
+pm uninstall --user 0 com.google.android.syncadapters.contacts
+# configures default web search provider
+pm uninstall -k --user 0 com.google.android.apps.setupwizard.searchselector
+# Google News App, swipe right on OxygenOS series 8 devices
+pm uninstall -k --user 0 com.google.android.apps.magazines
+# Google podcast client
+pm uninstall -k --user 0 com.google.android.apps.podcasts
+# Google assistant
+pm uninstall --user 0 com.google.android.apps.googleassistant
+
+
