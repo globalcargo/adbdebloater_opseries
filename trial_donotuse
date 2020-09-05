@@ -3,6 +3,16 @@
 
 ## Google 
 
+## minimums for Play
+    #
+pm disable-user --user 0 com.google.android.gsf
+    #
+pm disable-user --user 0 com.google.android.gms
+    #
+pm disable-user --user 0 com.android.vending
+
+
+
     #
 pm disable-user --user 0 com.google.android.ext.services
     #
@@ -17,8 +27,6 @@ pm disable-user --user 0 com.google.android.configupdater
 # pm disable-user --user 0 com.google.android.overlay.modules.permissioncontroller
     #
 pm disable-user --user 0 com.google.ar.core
-    #
-pm disable-user --user 0 com.android.vending
     #
 pm disable-user --user 0 com.google.android.apps.work.oobconfig
     #
@@ -37,10 +45,6 @@ pm disable-user --user 0 com.google.android.overlay.gmsconfig
 pm disable-user --user 0 com.google.android.modulemetadata
     #
 pm disable-user --user 0 com.google.android.packageinstaller
-    #
-pm disable-user --user 0 com.google.android.gms
-    #
-pm disable-user --user 0 com.google.android.gsf
     #
 pm disable-user --user 0 com.google.android.ims
     #
