@@ -43,8 +43,8 @@ pm disable-user --user 0 com.android.chrome
 pm disable-user --user 0 com.google.android.overlay.gmsconfig
     #
 pm disable-user --user 0 com.google.android.modulemetadata
-    #
-pm disable-user --user 0 com.google.android.packageinstaller
+    # needed for e.g. Fdroid to work and install packages
+# pm disable-user --user 0 com.google.android.packageinstaller
     #
 pm disable-user --user 0 com.google.android.ims
     #
