@@ -35,8 +35,8 @@ pm disable-user --user 0 com.google.android.apps.work.oobconfig
 pm disable-user --user 0 com.google.android.overlay.modules.ext.services
     #
 pm disable-user --user 0 com.google.android.dialer
-    #
-pm disable-user --user 0 com.google.android.webview
+    #   needed by hub and others
+# pm disable-user --user 0 com.google.android.webview
     #
 pm disable-user --user 0 com.android.chrome
     #
