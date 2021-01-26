@@ -34,7 +34,7 @@ ADB devices
 ADB shell
 ```
 5. Use the files from this repo by pasting them into the prompt. Changes will be executed line by line. "#" prefixed lines will be treated as comments and ignored.
-For optiona_debloats copy and paste the relevant line item.
+For optiona_debloats copy and paste the relevant line item in the prompt.
 6. If you don't want some apps to be removed remove respective lines or comment them out if your shell/script supports it.
 7. Done Enjoy!!!
 
